@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css" media="screen"
+	href="css/modern.css" />
+<link rel="stylesheet" type="text/css" media="screen"
+	href="css/site.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="javascript/pagecontrol.js"></script>
+</head>
+<body class="metrouicss">
+
+	<div class="page-control" data-role="page-control">
+		<ul>
+			<li class="active"><a href="#frame1">页面标题</a></li>
+			<li><a href="#frameN">页面标题N</a></li>
+			<li><a href="#frame2">页面标题N</a></li>
+		</ul>
+		<div class="frames">
+			<div class="frame active" id="frame1">...页面标题对应的页面内容...</div>
+			<div class="frame" id="frameN">...页面标题N对应的内容...</div>
+			<div class="frame" id="frame2">
+				<iframe src="http://www.baidu.com"></iframe>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
